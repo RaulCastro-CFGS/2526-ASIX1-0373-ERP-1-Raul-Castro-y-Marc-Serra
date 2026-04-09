@@ -1,1 +1,0 @@
-# 2526-ASIX1-0373-ERP-1-Raul-Castro-y-Marc-Serra
