@@ -1,0 +1,183 @@
+html {
+    font-size: 16px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #1a1a2e;
+    font-family: Arial, sans-serif;
+    color: #e0e0e0;
+}
+
+/* ---- NAVBAR ---- */
+
+.navbar {
+    background-color: #16213e;
+    padding: 12px 20px;
+    border-bottom: 2px solid #0f3460;
+}
+
+.navbar a {
+    color: #e0e0e0;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.navbar a:hover {
+    color: #e94560;
+}
+
+.marca {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #e94560;
+    margin-right: 30px;
+}
+
+/* ---- CABECERA ---- */
+
+.cabecera {
+    text-align: center;
+    padding: 60px 20px 40px 20px;
+    background-color: #16213e;
+    border-bottom: 2px solid #0f3460;
+}
+
+.subtitulo {
+    font-size: 0.85rem;
+    color: #888;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 0 0 10px 0;
+}
+
+.cabecera h1 {
+    font-size: 2.8rem;
+    color: #e94560;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+.autores {
+    font-size: 0.9rem;
+    color: #888;
+    margin-top: 10px;
+}
+
+/* ---- CONTENIDO ---- */
+
+.contenido {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 40px 60px 40px;
+}
+
+/* ---- TITULO DE SECCION ---- */
+
+.titulo-seccion {
+    font-size: 1.4rem;
+    color: #e94560;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #0f3460;
+}
+
+/* ---- PREGUNTAS ---- */
+
+.pregunta {
+    padding: 14px 0;
+    border-bottom: 1px solid #0f3460;
+}
+
+.pregunta h3 {
+    font-size: 0.95rem;
+    color: #a0c4ff;
+    margin: 0 0 8px 0;
+}
+
+.pregunta p {
+    margin: 0 0 8px 0;
+    line-height: 1.7;
+    font-size: 0.9rem;
+    color: #ccc;
+}
+
+.pregunta ul {
+    margin: 6px 0 8px 20px;
+    padding: 0;
+}
+
+.pregunta li {
+    font-size: 0.9rem;
+    line-height: 1.8;
+    color: #ccc;
+}
+
+/* ---- BLOQUES COMPARATIVA ---- */
+
+.erp-bloque {
+    margin-bottom: 30px;
+    border-left: 3px solid #e94560;
+    padding-left: 16px;
+}
+
+.erp-nombre {
+    font-size: 1.1rem;
+    color: #e94560;
+    margin: 0 0 10px 0;
+}
+
+.erp-fila {
+    display: flex;
+    gap: 16px;
+    padding: 6px 0;
+    border-bottom: 1px solid #0f3460;
+    font-size: 0.88rem;
+}
+
+.erp-campo {
+    font-weight: bold;
+    color: #a0c4ff;
+    min-width: 160px;
+}
+
+.erp-valor {
+    color: #ccc;
+    line-height: 1.5;
+}
+
+
+
+/* ---- RESPONSIVE ---- */
+
+@media only screen and (max-width: 900px) {
+    .contenido {
+        padding: 20px 20px 40px 20px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .cabecera h1 {
+        font-size: 1.8rem;
+    }
+    .contenido {
+        padding: 15px 15px 30px 15px;
+    }
+    .erp-fila {
+        flex-direction: column;
+        gap: 4px;
+    }
+    .erp-campo {
+        min-width: unset;
+    }
+}
