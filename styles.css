@@ -79,7 +79,7 @@ body {
     padding: 40px 40px 60px 40px;
 }
 
-/* ---- TITULO DE SECCION ---- */
+/* ---- TITULO SECCION ---- */
 
 .titulo-seccion {
     font-size: 1.4rem;
@@ -97,12 +97,14 @@ body {
 .pregunta {
     padding: 14px 0;
     border-bottom: 1px solid #0f3460;
+    text-align: justify;
 }
 
 .pregunta h3 {
     font-size: 0.95rem;
     color: #a0c4ff;
     margin: 0 0 8px 0;
+    text-align: justify;
 }
 
 .pregunta p {
@@ -110,17 +112,20 @@ body {
     line-height: 1.7;
     font-size: 0.9rem;
     color: #ccc;
+    text-align: justify;
 }
 
 .pregunta ul {
     margin: 6px 0 8px 20px;
     padding: 0;
+    text-align: justify;
 }
 
 .pregunta li {
     font-size: 0.9rem;
     line-height: 1.8;
     color: #ccc;
+    text-align: justify;
 }
 
 /* ---- BLOQUES COMPARATIVA ---- */
